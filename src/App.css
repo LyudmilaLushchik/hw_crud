@@ -1,0 +1,46 @@
+#root {
+  font-family: Helvetica, Arial, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+}
+
+.note-item {
+  min-width: 100px;
+  min-height: 100px;
+  border: 1px solid black;
+  position: relative;
+  margin: 30px;
+}
+
+.note-update {
+  margin: 10px;
+  padding: 10px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span {
+  margin: 10px;
+  padding: 10px;
+}
+
+.el {
+  margin: 10px;
+  padding: 10px;
+}
+
+.delete {
+  border: 1px solid black;
+  color: red;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+}
